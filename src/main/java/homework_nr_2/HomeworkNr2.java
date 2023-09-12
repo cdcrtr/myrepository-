@@ -23,6 +23,7 @@ public class HomeworkNr2 {
 
         double total = Price + Tax * Quantity + Sum;
         System.out.println(total);
+        //
 
     }
 }
