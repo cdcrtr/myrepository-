@@ -63,13 +63,10 @@ public class HomeWorkNr3 {
         //6.
         double SumOfAllResultsOfDevision = 0;
 
-        for (double i=1; i<=97; i=i+2){
+        for (double i=1; i<=97; i+=2){
 
-            for (double j=i+2; j<=99; j=j+2 ){
+            SumOfAllResultsOfDevision = SumOfAllResultsOfDevision + (i/(i+2));
 
-                SumOfAllResultsOfDevision = SumOfAllResultsOfDevision + (i/j);
-                break;
-            }
         }
 
         System.out.println(SumOfAllResultsOfDevision);
